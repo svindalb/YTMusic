@@ -245,7 +245,7 @@ Distribution/SHA256SUMS.txt
 
 Both formats include the app and [end-user installation guide](Distribution/README.txt); the DMG includes an Applications shortcut. The script verifies disk image integrity and writes SHA-256 checksums. Its default build directory is `/private/tmp/ytmusic-distribution-build`; override it with `YT_MUSIC_BUILD_ROOT` if needed.
 
-The script intentionally does **not** use Developer ID signing or notarization. An ad-hoc signature verifies bundle integrity but does not identify an Apple-verified publisher. [Distribution/NOTARIZATION.md](Distribution/NOTARIZATION.md) records the separate optional release flow; no notarized build is currently provided.
+The script intentionally does **not** use Developer ID signing or notarization. An ad-hoc signature verifies bundle integrity but does not identify an Apple-verified publisher. No notarized build is currently provided.
 
 For a version change, update `MARKETING_VERSION` and `CURRENT_PROJECT_VERSION` in the Xcode target. Also update the versioned filenames in `package-release.sh`, the distribution guide and this README. About reads the version/build from the built bundle.
 
@@ -294,8 +294,6 @@ When reporting a bug, include the app version/build, macOS version, Mac model/ch
 **Never post passwords, cookies, authorization headers, browser-profile files, account identifiers or private listening data.** Review logs, screenshots and crash reports before sharing. Do not open a public issue containing credentials or an exploitable account-data exposure; arrange a private report with the repository maintainer.
 
 For changes, keep account isolation, exact playlist-entry identity, user-initiated mutations, cache/login separation and Reduce Motion behavior intact. Add meaningful regression checks for parser, persistence, playback or mutation-safety changes, and update user-facing documentation when behavior changes.
-
-Project history and implementation notes are in [PROGRESS.md](PROGRESS.md); review findings and verification limits are in [CODE_REVIEW.md](CODE_REVIEW.md). Older entries describe earlier states and may be superseded by later resolutions or the current code.
 
 Before the first public upload, review the files you plan to publish. Exclude Xcode user state (`xcuserdata`), DerivedData/build output, `.DS_Store`, local credentials, diagnostics and runtime data; review development notes/screenshots for personal information. Commit the source, assets, project configuration, tests and documentation. This README does not publish the repository or create releases.
 
