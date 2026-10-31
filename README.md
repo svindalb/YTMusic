@@ -18,6 +18,7 @@ This is a native interface backed by YouTube Music's online service. Login and a
 
 ## Contents
 
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [What stays local and what changes your account](#what-stays-local-and-what-changes-your-account)
 - [Installation](#installation)
@@ -30,6 +31,12 @@ This is a native interface backed by YouTube Music's online service. Login and a
 - [Limitations and troubleshooting](#limitations-and-troubleshooting)
 - [Contributing and reporting issues](#contributing-and-reporting-issues)
 - [License and acknowledgements](#license-and-acknowledgements)
+
+## Screenshots
+
+<p align="center">
+  <img src="Design/YT0.png" alt="Screenshot" width="320" />
+</p>
 
 ## Features
 
