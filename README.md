@@ -36,6 +36,7 @@ This is a native interface backed by YouTube Music's online service. Login and a
 
 <p align="center">
   <img src="Design/YT0.png" alt="Screenshot" width="640" />
+  <img src="Design/YT1.png" alt="Screenshot" width="640" />
 </p>
 
 ## Features
