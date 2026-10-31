@@ -301,6 +301,6 @@ Before the first public upload, review the files you plan to publish. Exclude Xc
 
 ## License and acknowledgements
 
-No `LICENSE` file is currently included. The repository owner should select and add a license before presenting the project as licensed open-source software; this README does not grant a software license.
+Open-Source. See LICENSE file for details.
 
 Built with Apple's SwiftUI, AppKit, WebKit, MediaPlayer, ImageIO and CryptoKit frameworks. Music, artwork, metadata and lyrics are supplied by the relevant online services and rights holders; their inclusion in the app does not transfer ownership or grant redistribution rights. Use remains subject to the applicable service terms and content permissions.
