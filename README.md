@@ -112,11 +112,6 @@ If prebuilt packages have been published, find them in the repository's **Releas
 
 Current packages are **ad-hoc signed and unnotarized**, not signed with a Developer ID certificate. macOS may block the first launch. If you trust the copy you downloaded, try opening it, then use **System Settings → Privacy & Security → Open Anyway**. See [Apple's guidance](https://support.apple.com/en-us/102445). There is no need to disable Gatekeeper globally.
 
-To verify a downloaded release against its accompanying checksum file, put both packages and `SHA256SUMS.txt` in the same folder and run:
-
-```sh
-shasum -a 256 -c SHA256SUMS.txt
-```
 
 ## Using the app
 
