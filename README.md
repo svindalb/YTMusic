@@ -35,15 +35,15 @@ This is a native interface backed by YouTube Music's online service. Login and a
 ## Screenshots
 
 <p align="center">
-  <img src="Screenshots/YT0.png" width="48%" alt="YT Music screenshot 1" />
-  <img src="Screenshots/YT1.png" width="48%" alt="YT Music screenshot 2" />
+  <img src="Design/YT0.png" width="48%" alt="YT Music screenshot 1" />
+  <img src="Design/YT1.png" width="48%" alt="YT Music screenshot 2" />
 </p>
 <p align="center">
-  <img src="Screenshots/YT2.png" width="48%" alt="YT Music screenshot 3" />
-  <img src="Screenshots/YT3.png" width="48%" alt="YT Music screenshot 4" />
+  <img src="Design/YT2.png" width="48%" alt="YT Music screenshot 3" />
+  <img src="Design/YT3.png" width="48%" alt="YT Music screenshot 4" />
 </p>
 <p align="center">
-  <img src="Screenshots/YT4.png" width="48%" alt="YT Music screenshot 5" />
+  <img src="Design/YT4.png" width="48%" alt="YT Music screenshot 5" />
 </p>
 
 ## Features
